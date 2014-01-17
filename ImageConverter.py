@@ -116,7 +116,7 @@ class IcFrame(wx.Frame):
         self.hasMenu = False
         
     def OnContextMenu(self, event):
-        """弹出邮件菜单"""
+        """弹出右键菜单"""
         if not self.hasMenu:
             self.hasMenu = True
             evtHandler= [self.OnAddSrcFiles, self.OnSelectOutputDir,
